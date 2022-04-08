@@ -18,19 +18,36 @@ The `dataset` is a branch to share datasets publicly. The details are described 
    
 4. Attribute Information:
      
-  | Attribute type     | Attribute name     | Description                                                |
-  |--------------------|--------------------|------------------------------------------------------------|
-  | Dependent variable | NRTN_CORN          | Five year average of net return for corn production        |
-  |                    | NRTN_SOYBEANS      | Five year average of net return for soybean production     |
-  |                    | NRTN_WHEAT         | Five year average of net return for wheat production       |
-  |                    | NRTN_OTHER_CROPS   | Five year average of net return for other crop productions |
-  |                    | NRTN_PASTURE/RANGE | Five year average of net return for pasture and range      |
-  |                    | NRTN_FOREST        | Five year average of net return for forest                 |
-  |                    | NRTN_ALLOTHERS     | Five year average of net return for other activities       |
-  | Covariate          | LUSHR_CORN         | Land-use share returning to corn production                |
-  |                    | LUSHR_SOYBEANS     | Land-use share returning to soybean production             |
-  | Spatial            | FP_REGION          | Farm production regions in contiguous US                   |
-  | Temporal           | QUINQUENNIUM       | 5-years period between 1992 and 2017                       |
+  | Attribute type     | Attribute name                  | Description                                                                    |
+  |--------------------|---------------------------------|--------------------------------------------------------------------------------|
+  | Dependent variable | NRTN_CORN                       | Five year average of net return for corn production                            |
+  |                    | NRTN_SOYBEANS                   | Five year average of net return for soybean production                         |
+  |                    | NRTN_WHEAT                      | Five year average of net return for wheat production                           |
+  |                    | NRTN_OTHER_CROPS                | Five year average of net return for other crop productions                     |
+  |                    | NRTN_PASTURE/RANGE              | Five year average of net return for pasture and range                          |
+  |                    | NRTN_FOREST                     | Five year average of net return for forest                                     |
+  |                    | NRTN_ALLOTHERS                  | Five year average of net return for other activities                           |
+  |                    | NRTN_\|SOYBEANS-CORN\|          | Absolute difference in five year average net returns between soybeans and corn |
+  |                    | NRTN_\|WHEAT-CORN\|             |                                                                                |
+  |                    | NRTN_\|OTHER_CROPS-CORN\|       |                                                                                |
+  |                    | NRTN_\|PASTURE/RANGE-CORN\|     |                                                                                |
+  |                    | NRTN_\|FOREST-CORN\|            |                                                                                |
+  |                    | NRTN_\|WHEAT-SOYBEANS\|         |                                                                                |
+  |                    | NRTN_\|OTHER_CROPS-SOYBEANS\|   |                                                                                |
+  |                    | NRTN_\|PASTURE/RANGE-SOYBEANS\| |                                                                                |
+  |                    | NRTN_\|FOREST-SOYBEANS\|        |                                                                                |
+  |                    | NRTN_\|OTHER_CROPS-WHEAT\|      |                                                                                |
+  |                    | NRTN_\|PASTURE/RANGE-WHEAT\|    |                                                                                |
+  |                    | NRTN_\|FOREST-WHEAT\|           |                                                                                |
+  |                    | NRTN_\|FOREST-PATURE/RANGE\|    |                                                                                |
+  |                    |                                 |                                                                                |
+  | Covariate          | LUSHR_CORN                      | Land-use share returning to corn production                                    |
+  |                    | LUSHR_SOYBEANS                  | Land-use share returning to soybean production                                 |
+  |                    | LUSHR_WHEAT                     |                                                                                |
+  |                    | LUSHR_OTHER_CROPS               |                                                                                |
+  |                    |                                 |                                                                                |
+  | Spatial            | FP_REGION                       | Farm production regions in contiguous US                                       |
+  | Temporal           | QUINQUENNIUM                    | 5-years period between 1992 and 2017                                           |
 
 
 5. Sources
