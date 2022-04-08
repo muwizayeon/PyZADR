@@ -16,33 +16,33 @@ The `dataset` is a branch to share datasets publicly. The details are described 
    - The original dataset: 7 covariates and 7 dependent variables with spatial and temporal attributes
    - Rest of others: 6 covariates and 1 dependent variable with spatial and temporal attributes
    
-4. Attribute Information:
+4. Attribute Information
    
-   Covariate:
-   | Attribute name                  | Description                                                           |
-   |---------------------------------|-----------------------------------------------------------------------|
-   | NRTN_CORN                       | Five year average of net return for corn production                   |
-   | NRTN_SOYBEANS                   | Five year average of net return for soybean production                |
-   | NRTN_WHEAT                      | Five year average of net return for wheat production                  |
-   | NRTN_OTHER_CROPS                | Five year average of net return for other crop productions            |
-   | NRTN_PASTURE/RANGE              | Five year average of net return for pasture and range                 |
-   | NRTN_FOREST                     | Five year average of net return for forest                            |
-   | NRTN_ALLOTHERS                  | Five year average of net return for other activities                  |
-   | NRTN_\|SOYBEANS-CORN\|          | Absolute difference in net returns between soybeans and corn          |
-   | NRTN_\|WHEAT-CORN\|             | Absolute difference in net returns between wheat and corn             |
-   | NRTN_\|OTHER_CROPS-CORN\|       | Absolute difference in net returns between other crops and corn       |
-   | NRTN_\|PASTURE/RANGE-CORN\|     | Absolute difference in net returns between pasture/range and corn     |
-   | NRTN_\|FOREST-CORN\|            | Absolute difference in net returns between forest and corn            |
-   | NRTN_\|WHEAT-SOYBEANS\|         | Absolute difference in net returns between wheat and soybeans         |
-   | NRTN_\|OTHER_CROPS-SOYBEANS\|   | Absolute difference in net returns between other crops and soybeans   |
-   | NRTN_\|PASTURE/RANGE-SOYBEANS\| | Absolute difference in net returns between pasture/range and soybeans |
-   | NRTN_\|FOREST-SOYBEANS\|        | Absolute difference in net returns between forest and soybeans        |
-   | NRTN_\|OTHER_CROPS-WHEAT\|      | Absolute difference in net returns between other crops and wheat      |
-   | NRTN_\|PASTURE/RANGE-WHEAT\|    | Absolute difference in net returns between pasture/range and wheat    |
-   | NRTN_\|FOREST-WHEAT\|           | Absolute difference in net returns between forest and wheat           |
-   | NRTN_\|FOREST-PATURE/RANGE\|    | Absolute difference in net returns between forest and pasture/range   |
+   **Covariate**:
+   | Attribute name                       | Description                                                           |
+   |--------------------------------------|-----------------------------------------------------------------------|
+   | <span font-size:4em>NRTN_CORN</span> | Five year average of net return for corn production                 |
+   | NRTN_SOYBEANS                        | Five year average of net return for soybean production                |
+   | NRTN_WHEAT                           | Five year average of net return for wheat production                  |
+   | NRTN_OTHER_CROPS                     | Five year average of net return for other crop productions            |
+   | NRTN_PASTURE/RANGE                   | Five year average of net return for pasture and range                 |
+   | NRTN_FOREST                          | Five year average of net return for forest                            |
+   | NRTN_ALLOTHERS                       | Five year average of net return for other activities                  |
+   | NRTN_\|SOYBEANS-CORN\|               | Absolute difference in net returns between soybeans and corn          |
+   | NRTN_\|WHEAT-CORN\|                  | Absolute difference in net returns between wheat and corn             |
+   | NRTN_\|OTHER_CROPS-CORN\|            | Absolute difference in net returns between other crops and corn       |
+   | NRTN_\|PASTURE/RANGE-CORN\|          | Absolute difference in net returns between pasture/range and corn     |
+   | NRTN_\|FOREST-CORN\|                 | Absolute difference in net returns between forest and corn            |
+   | NRTN_\|WHEAT-SOYBEANS\|              | Absolute difference in net returns between wheat and soybeans         |
+   | NRTN_\|OTHER_CROPS-SOYBEANS\|        | Absolute difference in net returns between other crops and soybeans   |
+   | NRTN_\|PASTURE/RANGE-SOYBEANS\|      | Absolute difference in net returns between pasture/range and soybeans |
+   | NRTN_\|FOREST-SOYBEANS\|             | Absolute difference in net returns between forest and soybeans        |
+   | NRTN_\|OTHER_CROPS-WHEAT\|           | Absolute difference in net returns between other crops and wheat      |
+   | NRTN_\|PASTURE/RANGE-WHEAT\|         | Absolute difference in net returns between pasture/range and wheat    |
+   | NRTN_\|FOREST-WHEAT\|                | Absolute difference in net returns between forest and wheat           |
+   | NRTN_\|FOREST-PATURE/RANGE\|         | Absolute difference in net returns between forest and pasture/range   |
   
-   Dependent variables:
+   **Dependent variables**:
    | Attribute name    | Description                                       |
    |-------------------|---------------------------------------------------|
    | LUSHR_CORN        | Land-use share returning to corn production       |
@@ -50,12 +50,12 @@ The `dataset` is a branch to share datasets publicly. The details are described 
    | LUSHR_WHEAT       | Land-use share returning to wheat production      |
    | LUSHR_OTHER_CROPS | Land-use share returning to other crop production |
 
-   Spatial attribute:
+   **Spatial attribute**:
    | Attribute name | Description                              |
    |----------------|------------------------------------------|
    | FP_REGION      | Farm production regions in contiguous US |
   
-   Temporal attribute:
+   **Temporal attribute**:
    | Attribute name | Description                          |
    |----------------|--------------------------------------|
    | QUINQUENNIUM   | 5-years period between 1992 and 2017 |
