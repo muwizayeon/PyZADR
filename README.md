@@ -18,7 +18,7 @@ The `dataset` is a branch to share datasets publicly. The details are described 
    
 4. Attribute Information
    **Covariate**:
-   | <sub>Attribute name</sub>       | <sub>Description<sub>                                                 |
+   | <sup>Attribute name</sup>       | <sup>Description</sup>                                                |
    |---------------------------------|-----------------------------------------------------------------------|
    | NRTN_CORN                       | Five year average of net return for corn production                   |
    | NRTN_SOYBEANS                   | Five year average of net return for soybean production                |
