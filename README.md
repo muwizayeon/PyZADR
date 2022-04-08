@@ -17,6 +17,7 @@ The `dataset` is a branch to share datasets publicly. The details are described 
    - Rest of others: 6 covariates and 1 dependent variable with spatial and temporal attributes
    
 4. Attribute Information:
+   
    Covariate:
    | Attribute name                  | Description                                                           |
    |---------------------------------|-----------------------------------------------------------------------|
