@@ -2,14 +2,38 @@
 Python module for the Zero Adjusted Dirichlet Regression model based on PyMC
 
 ## Dataset branch
-The `dataset` is a branch to share datasets publicly. The details are described in a supplemental document for the manuscript, named: *The United States-China Trade War and Impact on the Post Conservation Reserve Program Land Allocation*
+The `dataset` is a branch to share datasets publicly. The details are described in a supplemental document for the manuscript: *The United States-China Trade War and Impact on the Post Conservation Reserve Program Land Allocation*
 
 1. Relevant Information:
    
-   The eight datasets were created in the above manuscript, using the various prices, acres planted, yields, and costs samples of agricultural activities. In original data ([raw_dat](raw_data.csv)), there are seven covariate attributes and another seven dependent variable attributes. Covariates are the expected land net returns from the seven agricultural activity categories: corn, soybeans, wheat, other crops, pasture/range, and all others. 
-   and land-use shares transitioning from the Conservation Reserve Program (CRP) to seven agricultural activities: 
+   The eight datasets were created in the above manuscript, using the various prices, acres planted, yields, and costs samples of agricultural activities. In the original data ([raw_dat](raw_dat.csv)), there are seven covariates and corresponding dependent variables, along with the two spatial and temporal attributes. The covariates are the expected land net returns from the seven agricultural activity categories: corn, soybeans, wheat, other crops, pasture/range, forest, and other activities. The dependent attributes are land-use shares transitioning from the Conservation Reserve Program (CRP) to different activities.
+   
+   The rest of the datasets were derived from the original data. Each data consists of one land-use share returning to one of the activities from the CRP and a corresponding own net return and absolute differences between own and other net returns.
 
-4. Sources
+2. Number of Instances (Observations): 35
+
+3. Number of Attributes (Variables)
+   - The original dataset: 7 covariates and 7 dependent variables with spatial and temporal attributes
+   - Rest of others: 6 covariates and 1 dependent variable with spatial and temporal attributes
+   
+4. Attribute Information:
+     
+  | Attribute type     | Attribute name     | Description                                                |
+  |--------------------|--------------------|------------------------------------------------------------|
+  | Dependent variable | NRTN_CORN          | Five year average of net return for corn production        |
+  |                    | NRTN_SOYBEANS      | Five year average of net return for soybean production     |
+  |                    | NRTN_WHEAT         | Five year average of net return for wheat production       |
+  |                    | NRTN_OTHER_CROPS   | Five year average of net return for other crop productions |
+  |                    | NRTN_PASTURE/RANGE | Five year average of net return for pasture and range      |
+  |                    | NRTN_FOREST        | Five year average of net return for forest                 |
+  |                    | NRTN_ALLOTHERS     | Five year average of net return for other activities       |
+  | Covariate          | LUSHR_CORN         | Land-use share returning to corn production                |
+  |                    | LUSHR_SOYBEANS     | Land-use share returning to soybean production             |
+  | Spatial            | FP_REGION          | Farm production regions in contiguous US                   |
+  | Temporal           | QUINQUENNIUM       | 5-years period between 1992 and 2017                       |
+
+
+5. Sources
    
    Calculated by Meongsu Lee (University of Missouri) in 2021 from the following original sources:
    - Dubois M.R., C.B. Erwin, and T.J. Straka. "Costs and Cost Trends for Forestry Practices in the South." Forest Landowner 60, 2(2001): 3--8.
