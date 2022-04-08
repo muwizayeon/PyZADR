@@ -43,6 +43,7 @@ The `dataset` is a branch to share datasets publicly. The details are described 
   
    - Dependent variables:
      | Attribute name    | Description                                       |
+     |-------------------|---------------------------------------------------|
      | LUSHR_CORN        | Land-use share returning to corn production       |
      | LUSHR_SOYBEANS    | Land-use share returning to soybean production    |
      | LUSHR_WHEAT       | Land-use share returning to wheat production      |
@@ -50,10 +51,12 @@ The `dataset` is a branch to share datasets publicly. The details are described 
 
    - Spatial attribute:
      | Attribute name | Description                              |
+     |----------------|------------------------------------------|
      | FP_REGION      | Farm production regions in contiguous US |
   
    - Temporal attribute:
      | Attribute name | Description                          |
+     |----------------|--------------------------------------|
      | QUINQUENNIUM   | 5-years period between 1992 and 2017 |
 
 
