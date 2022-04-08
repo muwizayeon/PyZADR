@@ -4,7 +4,12 @@ Python module for the Zero Adjusted Dirichlet Regression model based on PyMC
 ## Dataset branch
 The `dataset` is a branch to share datasets publicly. The details are described in a supplemental document for the manuscript, named: *The United States-China Trade War and Impact on the Post Conservation Reserve Program Land Allocation*
 
-1. Sources
+1. Relevant Information:
+   
+   The eight datasets were created in the above manuscript, using the various prices, acres planted, yields, and costs samples of agricultural activities. In original data ([raw_dat](raw_data.csv)), there are seven covariate attributes and another seven dependent variable attributes. Covariates are the expected land net returns from the seven agricultural activity categories: corn, soybeans, wheat, other crops, pasture/range, and all others. 
+   and land-use shares transitioning from the Conservation Reserve Program (CRP) to seven agricultural activities: 
+
+4. Sources
    
    Calculated by Meongsu Lee (University of Missouri) in 2021 from the following original sources:
    - Dubois M.R., C.B. Erwin, and T.J. Straka. "Costs and Cost Trends for Forestry Practices in the South." Forest Landowner 60, 2(2001): 3--8.
