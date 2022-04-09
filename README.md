@@ -6,7 +6,7 @@ The `dataset` is a branch to share datasets publicly. The details are described 
 
 1. Relevant Information:
    
-   The eight datasets were created in the above manuscript, using the various prices, acres planted, yields, and costs samples of agricultural activities. In the original data ([raw_dat](raw_dat.csv)), there are seven covariates and corresponding dependent variables, along with the two spatial and temporal attributes. The covariates are the expected land net returns from the seven agricultural activity categories: corn, soybeans, wheat, other crops, pasture/range, forest, and other activities. The dependent attributes are land-use shares transitioning from the Conservation Reserve Program (CRP) to different activities.
+   The eight datasets were created in the above manuscript, using the various prices, acres planted, yields, and costs samples of agricultural activities. In the original data ([raw_dat](raw_dat.csv)), there are six covariates and corresponding dependent variables, along with the two spatial and temporal attributes. The covariates are the expected land net returns from the seven agricultural activity categories: corn, soybeans, wheat, other crops, pasture/range, and forest. The dependent attributes are land-use shares transitioning from the Conservation Reserve Program (CRP) to different activities.
    
    The rest of the datasets were derived from the original data. Each data consists of one land-use share returning to one of the activities from the CRP and a corresponding own net return and absolute differences between own and other net returns.
 
@@ -17,37 +17,38 @@ The `dataset` is a branch to share datasets publicly. The details are described 
    - Rest of others: 6 covariates and 1 dependent variable with spatial and temporal attributes
    
 4. Attribute Information
+   
    **Covariate**:
-   | <sup>Attribute name</sup>       | <sup>Description</sup>                                                |
-   |---------------------------------|-----------------------------------------------------------------------|
-   | NRTN_CORN                       | Five year average of net return for corn production                   |
-   | NRTN_SOYBEANS                   | Five year average of net return for soybean production                |
-   | NRTN_WHEAT                      | Five year average of net return for wheat production                  |
-   | NRTN_OTHER_CROPS                | Five year average of net return for other crop productions            |
-   | NRTN_PASTURE/RANGE              | Five year average of net return for pasture and range                 |
-   | NRTN_FOREST                     | Five year average of net return for forest                            |
-   | NRTN_ALLOTHERS                  | Five year average of net return for other activities                  |
-   | NRTN_\|SOYBEANS-CORN\|          | Absolute difference in net returns between soybeans and corn          |
-   | NRTN_\|WHEAT-CORN\|             | Absolute difference in net returns between wheat and corn             |
-   | NRTN_\|OTHER_CROPS-CORN\|       | Absolute difference in net returns between other crops and corn       |
-   | NRTN_\|PASTURE/RANGE-CORN\|     | Absolute difference in net returns between pasture/range and corn     |
-   | NRTN_\|FOREST-CORN\|            | Absolute difference in net returns between forest and corn            |
-   | NRTN_\|WHEAT-SOYBEANS\|         | Absolute difference in net returns between wheat and soybeans         |
-   | NRTN_\|OTHER_CROPS-SOYBEANS\|   | Absolute difference in net returns between other crops and soybeans   |
-   | NRTN_\|PASTURE/RANGE-SOYBEANS\| | Absolute difference in net returns between pasture/range and soybeans |
-   | NRTN_\|FOREST-SOYBEANS\|        | Absolute difference in net returns between forest and soybeans        |
-   | NRTN_\|OTHER_CROPS-WHEAT\|      | Absolute difference in net returns between other crops and wheat      |
-   | NRTN_\|PASTURE/RANGE-WHEAT\|    | Absolute difference in net returns between pasture/range and wheat    |
-   | NRTN_\|FOREST-WHEAT\|           | Absolute difference in net returns between forest and wheat           |
-   | NRTN_\|FOREST-PATURE/RANGE\|    | Absolute difference in net returns between forest and pasture/range   |
+   | <sup>Attribute name</sup> | <sup>Description</sup>                                                |
+   |---------------------------|-----------------------------------------------------------------------|
+   | NRTN_CORN                 | Five year average of net return for corn production                   |
+   | NRTN_SOYBEANS             | Five year average of net return for soybean production                |
+   | NRTN_WHEAT                | Five year average of net return for wheat production                  |
+   | NRTN_OTCROPS              | Five year average of net return for other crop productions            |
+   | NRTN_PASTRNG              | Five year average of net return for pasture and range                 |
+   | NRTN_FOREST               | Five year average of net return for forest                            |
+   | NRTN_OTHERS               | Five year average of net return for other activities                  |
+   | NRTN_\|SOYBEANS-CORN\|    | Absolute difference in net returns between soybeans and corn          |
+   | NRTN_\|WHEAT-CORN\|       | Absolute difference in net returns between wheat and corn             |
+   | NRTN_\|OTCROPS-CORN\|     | Absolute difference in net returns between other crops and corn       |
+   | NRTN_\|PASTRNG-CORN\|     | Absolute difference in net returns between pasture/range and corn     |
+   | NRTN_\|FOREST-CORN\|      | Absolute difference in net returns between forest and corn            |
+   | NRTN_\|WHEAT-SOYBEANS\|   | Absolute difference in net returns between wheat and soybeans         |
+   | NRTN_\|OTCROPS-SOYBEANS\| | Absolute difference in net returns between other crops and soybeans   |
+   | NRTN_\|PASTRNG-SOYBEANS\| | Absolute difference in net returns between pasture/range and soybeans |
+   | NRTN_\|FOREST-SOYBEANS\|  | Absolute difference in net returns between forest and soybeans        |
+   | NRTN_\|OTCROPS-WHEAT\|    | Absolute difference in net returns between other crops and wheat      |
+   | NRTN_\|PASTRNG-WHEAT\|    | Absolute difference in net returns between pasture/range and wheat    |
+   | NRTN_\|FOREST-WHEAT\|     | Absolute difference in net returns between forest and wheat           |
+   | NRTN_\|FOREST-PASTRNG\|   | Absolute difference in net returns between forest and pasture/range   |
   
    **Dependent variables**:
-   | Attribute name    | Description                                       |
-   |-------------------|---------------------------------------------------|
-   | LUSHR_CORN        | Land-use share returning to corn production       |
-   | LUSHR_SOYBEANS    | Land-use share returning to soybean production    |
-   | LUSHR_WHEAT       | Land-use share returning to wheat production      |
-   | LUSHR_OTHER_CROPS | Land-use share returning to other crop production |
+   | Attribute name | Description                                       |
+   |----------------|---------------------------------------------------|
+   | LUSHR_CORN     | Land-use share returning to corn production       |
+   | LUSHR_SOYBEANS | Land-use share returning to soybean production    |
+   | LUSHR_WHEAT    | Land-use share returning to wheat production      |
+   | LUSHR_OTCROPS  | Land-use share returning to other crop production |
 
    **Spatial attribute**:
    | Attribute name | Description                              |
