@@ -73,7 +73,7 @@ The `dataset` is a branch to share datasets publicly. The details are described 
    - Barlow, R.J., and M.R. Dubois. "Cost and Cost Trends for Forestry Practices in the South." Forest Landowner, (November/December 2011).
    - Dooley E., and R.J. Barlow. "Special Report: 2012 Cost and Cost Trends for Forestry Practices in the South." Forest Landowner, (July/August 2013): 22--28.
    - Maggard A., and R.J. Barlow. "Special Report: 2016 Costs and Cost Trends for Southern Forestry Practices." Forest Landowner, (September/October 2017): 31--39.
-   - Smith, J.E., L.S. Heath, K.E. Skog, and R.A. Birdsey. "Methods for Calculating Forest Ecosystem and Harvested Carbon with Standard Estimates for Forest Types of the United States." GTR NE-343. Washington, DC: USDA-FS, 2005.
+   - Smith, J.E., L.S. Heath, K.E. Skog, and R.A. Birdsey. "Methods for Calculating Forest Ecosystem and Harvested Carbon with Standard Estimates for Forest Types of the United States." GTR NE-343. Newtown Square, PA: USDA-FS, 2005.
    - U.S. Department of Agriculture, Forest Service (USDA-FS). "Forest Products Cut and Sold from the National Forests and Grasslands." Washington, DC: USDA-FS, 2020. [https://www.fs.fed.us/forestmanagement/products/cut-sold/index.shtml](https://www.fs.fed.us/forestmanagement/products/cut-sold/index.shtml).
    - _______. "The Forest Inventory and Analysis Database." Washington, DC: USDA-FS, 2020. [https://www.fs.fed.us/emc/rig/DATIM/index.shtml](https://www.fs.fed.us/emc/rig/DATIM/index.shtml).
    - U.S. Department of Agriculture, National Agricultural Statistics Service (USDA-NASS). "Quick Stats Agricultural Database." Washington, DC: USDA-NASS, 2021. URL: [https://quickstats.nass.usda.gov](https://quickstats.nass.usda.gov).
