@@ -13,7 +13,7 @@ The `dataset` is a branch to share datasets publicly. The details are described 
 2. Number of Instances (Observations): 35
 
 3. Number of Attributes (Variables)
-   - The original dataset: 7 covariates and 7 dependent variables with spatial and temporal attributes
+   - The original dataset: 6 covariates and 7 dependent variables with spatial and temporal attributes
    - Rest of others: 6 covariates and 1 dependent variable with spatial and temporal attributes
    
 4. Attribute Information
